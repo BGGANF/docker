@@ -1,0 +1,10 @@
+docker pull webdevops/php-nginx
+docker pull mysql:5.6
+docker pull redis
+
+docker rm -f nginx-php
+docker rm -f mysql
+docker rm -f redis
+docker run --name=redis -p 6379:6379 -d redis
+docker run --name=mysql -p 3307:3306 -v /home/docker/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:5.6
+docker run --name=nginx-php --link mysql:db --link redis:redis.db -p 80:80 -v /home:/app -v /home/docker/config/nginx-php/nginx:/opt/docker/etc/nginx -d webdevops/php-nginx

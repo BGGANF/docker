@@ -1,0 +1,264 @@
+2017/04/23 05:16:58 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2017/04/23 05:17:05 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2017/04/23 05:17:15 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2017/04/23 05:17:19 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2017/04/23 05:17:26 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2017/04/23 05:17:30 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2017/04/23 05:17:34 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2017/04/23 05:17:41 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2017/04/23 05:17:54 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2017/04/23 05:18:21 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2017/04/23 05:22:49 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2017/04/23 05:22:57 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2017/04/23 05:23:05 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2017/04/23 05:23:12 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2017/04/23 05:23:16 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2017/04/23 05:23:19 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2017/04/23 05:23:23 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2017/04/23 05:23:30 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2017/04/23 05:23:44 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2017/04/23 05:24:10 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2017/04/23 05:25:02 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2017/04/23 05:26:12 [error] 6#6: *1 "/var/www/html/test/index.php" is not found (2: No such file or directory), client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", host: "test.com"
+2017/04/23 05:26:14 [error] 6#6: *1 "/var/www/html/test/index.php" is not found (2: No such file or directory), client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", host: "test.com"
+2017/04/23 05:26:16 [error] 6#6: *3 "/usr/share/nginx/html/hello/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", host: "hello.com"
+2017/04/23 05:26:17 [error] 6#6: *1 "/var/www/html/test/index.php" is not found (2: No such file or directory), client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", host: "test.com"
+2017/04/23 05:26:18 [error] 6#6: *1 "/var/www/html/test/index.php" is not found (2: No such file or directory), client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", host: "test.com"
+2017/04/23 05:26:20 [error] 6#6: *1 "/var/www/html/test/index.php" is not found (2: No such file or directory), client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", host: "test.com"
+2017/04/23 05:26:22 [error] 6#6: *3 "/usr/share/nginx/html/hello/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", host: "hello.com"
+2017/04/23 05:26:22 [error] 6#6: *1 "/var/www/html/test/index.php" is not found (2: No such file or directory), client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", host: "test.com"
+2017/04/23 05:26:23 [error] 6#6: *1 "/var/www/html/test/index.php" is not found (2: No such file or directory), client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", host: "test.com"
+2017/04/23 05:26:24 [error] 6#6: *3 "/usr/share/nginx/html/hello/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", host: "hello.com"
+2017/04/23 05:26:25 [error] 6#6: *1 "/var/www/html/test/index.php" is not found (2: No such file or directory), client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", host: "test.com"
+2017/04/23 05:28:28 [error] 5#5: *2 connect() failed (113: No route to host) while connecting to upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "test.com"
+2017/04/23 05:28:29 [error] 5#5: *4 "/usr/share/nginx/html/hello/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", host: "hello.com"
+2017/04/23 05:28:33 [error] 5#5: *4 "/usr/share/nginx/html/hello/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", host: "hello.com"
+2017/04/23 05:28:37 [error] 5#5: *2 connect() failed (113: No route to host) while connecting to upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "test.com"
+2017/04/23 05:28:55 [error] 5#5: *2 connect() failed (113: No route to host) while connecting to upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "test.com"
+2017/04/23 05:32:21 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "test.com"
+2017/04/23 05:36:57 [error] 5#5: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "test.com"
+2017/04/23 05:36:59 [error] 5#5: *5 "/usr/share/nginx/html/hello/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", host: "hello.com"
+2017/04/23 05:37:00 [error] 5#5: *5 "/usr/share/nginx/html/hello/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", host: "hello.com"
+2017/04/23 05:37:00 [error] 5#5: *5 "/usr/share/nginx/html/hello/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", host: "hello.com"
+2017/04/23 05:37:02 [error] 5#5: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "test.com"
+2017/04/23 05:37:04 [error] 5#5: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "test.com"
+2017/04/23 05:37:05 [error] 5#5: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "test.com"
+2017/04/23 05:40:09 [error] 5#5: *5 connect() failed (113: No route to host) while connecting to upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "test.com"
+2017/04/23 05:45:33 [error] 5#5: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "test.com"
+2017/04/23 05:54:35 [error] 5#5: *1 "/usr/share/nginx/html/hello/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", host: "hello.com"
+2017/04/23 05:54:35 [error] 5#5: *1 "/usr/share/nginx/html/hello/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", host: "hello.com"
+2017/04/23 05:54:36 [error] 5#5: *1 "/usr/share/nginx/html/hello/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", host: "hello.com"
+2017/04/23 05:54:40 [error] 5#5: *1 "/usr/share/nginx/html/hello/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", host: "hello.com"
+2017/04/23 05:54:40 [error] 5#5: *1 "/usr/share/nginx/html/hello/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", host: "hello.com"
+2017/04/23 05:54:41 [error] 5#5: *1 "/usr/share/nginx/html/hello/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", host: "hello.com"
+2017/04/23 05:54:41 [error] 5#5: *1 "/usr/share/nginx/html/hello/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", host: "hello.com"
+2017/04/23 05:54:41 [error] 5#5: *1 "/usr/share/nginx/html/hello/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", host: "hello.com"
+2017/04/23 05:54:41 [error] 5#5: *1 "/usr/share/nginx/html/hello/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", host: "hello.com"
+2017/04/23 05:55:16 [error] 5#5: *1 "/usr/share/nginx/html/hello/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", host: "hello.com"
+2017/04/23 05:55:17 [error] 5#5: *1 "/usr/share/nginx/html/hello/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", host: "hello.com"
+2017/04/23 05:55:18 [error] 5#5: *1 "/usr/share/nginx/html/hello/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", host: "hello.com"
+2017/04/23 05:55:18 [error] 5#5: *1 "/usr/share/nginx/html/hello/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", host: "hello.com"
+2017/04/23 05:55:43 [emerg] 1#1: unknown directive "root/var/www/html/hello" in /etc/nginx/conf.d/nginx.conf:76
+2017/04/23 05:55:45 [emerg] 1#1: unknown directive "root/var/www/html/hello" in /etc/nginx/conf.d/nginx.conf:76
+2017/04/23 05:55:47 [emerg] 1#1: unknown directive "root/var/www/html/hello" in /etc/nginx/conf.d/nginx.conf:76
+2017/04/23 05:55:48 [emerg] 1#1: unknown directive "root/var/www/html/hello" in /etc/nginx/conf.d/nginx.conf:76
+2017/04/23 05:55:50 [emerg] 1#1: unknown directive "root/var/www/html/hello" in /etc/nginx/conf.d/nginx.conf:76
+2017/04/23 05:55:52 [emerg] 1#1: unknown directive "root/var/www/html/hello" in /etc/nginx/conf.d/nginx.conf:76
+2017/04/23 05:55:56 [emerg] 1#1: unknown directive "root/var/www/html/hello" in /etc/nginx/conf.d/nginx.conf:76
+2017/04/23 05:56:03 [emerg] 1#1: unknown directive "root/var/www/html/hello" in /etc/nginx/conf.d/nginx.conf:76
+2017/04/23 06:23:27 [error] 5#5: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "test.com"
+2017/04/23 06:23:28 [error] 5#5: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "test.com"
+2017/04/23 06:24:29 [error] 5#5: *1 upstream timed out (110: Connection timed out) while connecting to upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "test.com"
+2017/04/23 08:07:06 [error] 5#5: *1 "/var/www/html/sheshi/www/index.php" is not found (2: No such file or directory), client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", host: "test.com"
+2017/04/23 08:07:08 [error] 5#5: *1 "/var/www/html/sheshi/www/index.php" is not found (2: No such file or directory), client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", host: "test.com"
+2017/04/23 08:08:07 [error] 5#5: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "test.com"
+2017/04/23 08:09:08 [error] 5#5: *3 upstream timed out (110: Connection timed out) while connecting to upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "test.com"
+2017/04/23 08:10:53 [error] 5#5: *1 upstream timed out (110: Connection timed out) while connecting to upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://72.17.0.2:9000", host: "test.com"
+2017/04/23 08:20:49 [error] 5#5: *1 upstream timed out (110: Connection timed out) while connecting to upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://72.17.0.2:9000", host: "test.com"
+2017/04/23 08:21:11 [error] 5#5: *4 upstream timed out (110: Connection timed out) while connecting to upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://72.17.0.2:9000", host: "test.com"
+2017/04/23 08:31:47 [error] 5#5: *2 upstream timed out (110: Connection timed out) while connecting to upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://72.17.0.2:9000", host: "test.com"
+2017/04/23 08:39:36 [error] 6#6: *1 upstream timed out (110: Connection timed out) while connecting to upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://72.17.0.2:9000", host: "test.com"
+2017/04/23 08:46:20 [error] 6#6: *1 upstream timed out (110: Connection timed out) while connecting to upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://72.17.0.2:9000", host: "test.com"
+2017/04/23 08:49:01 [error] 5#5: *2 upstream timed out (110: Connection timed out) while connecting to upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://72.17.0.2:9000", host: "test.com"
+2017/04/23 09:11:58 [error] 5#5: *10 connect() failed (113: No route to host) while connecting to upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "test.com"
+2017/04/23 09:12:01 [error] 5#5: *8 connect() failed (113: No route to host) while connecting to upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/23 09:12:58 [error] 5#5: *2 connect() failed (113: No route to host) while connecting to upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/23 09:13:01 [error] 5#5: *5 connect() failed (113: No route to host) while connecting to upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "test.com"
+2017/04/23 09:20:58 [error] 6#6: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "test.com"
+2017/04/23 09:21:01 [error] 6#6: *4 connect() failed (113: No route to host) while connecting to upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/23 09:42:08 [error] 5#5: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "test.com"
+2017/04/23 10:52:16 [error] 5#5: *1 FastCGI sent in stderr: "Access to the script '/var/www/html/sheshi/www' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "test.com"
+2017/04/23 10:52:18 [error] 5#5: *1 FastCGI sent in stderr: "Access to the script '/var/www/html/sheshi/www' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "test.com"
+2017/04/23 10:52:26 [error] 5#5: *1 FastCGI sent in stderr: "Access to the script '/var/www/html/sheshi/www' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "test.com"
+2017/04/23 10:52:31 [error] 5#5: *8 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "hello.com"
+2017/04/23 10:52:31 [error] 5#5: *8 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "hello.com"
+2017/04/23 10:52:35 [error] 5#5: *8 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "hello.com"
+2017/04/23 10:52:37 [error] 5#5: *1 FastCGI sent in stderr: "Access to the script '/var/www/html/sheshi/www' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "test.com"
+2017/04/23 11:09:35 [error] 5#5: *1 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/23 11:54:31 [error] 5#5: *2 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "hello.com"
+2017/04/23 11:57:28 [error] 5#5: *1 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/23 11:57:29 [error] 5#5: *1 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/23 11:57:29 [error] 5#5: *1 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/23 11:57:30 [error] 5#5: *1 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/23 11:57:31 [error] 5#5: *7 FastCGI sent in stderr: "Access to the script '/var/www/html/sheshi/www' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "test.com"
+2017/04/23 11:57:32 [error] 5#5: *7 FastCGI sent in stderr: "Access to the script '/var/www/html/sheshi/www' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "test.com"
+2017/04/23 12:00:20 [error] 5#5: *11 FastCGI sent in stderr: "Access to the script '/var/www/html/sheshi/www' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "test.com"
+2017/04/23 12:03:58 [error] 5#5: *13 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/23 12:03:59 [error] 5#5: *13 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/23 12:03:59 [error] 5#5: *13 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/23 12:03:59 [error] 5#5: *13 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/23 12:03:59 [error] 5#5: *13 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/23 12:04:22 [error] 5#5: *13 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/23 12:04:23 [error] 5#5: *13 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/23 12:04:23 [error] 5#5: *13 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/23 12:04:23 [error] 5#5: *13 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/23 12:06:01 [error] 5#5: *26 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/23 12:06:02 [error] 5#5: *26 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/23 12:06:03 [error] 5#5: *29 FastCGI sent in stderr: "Access to the script '/var/www/html/sheshi/www' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "test.com"
+2017/04/23 12:06:04 [error] 5#5: *26 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/23 12:07:05 [error] 5#5: *26 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/23 12:11:58 [error] 5#5: *34 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/23 12:12:06 [error] 5#5: *34 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/24 14:04:50 [error] 5#5: *1 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "hello.com"
+2017/04/24 14:04:50 [error] 5#5: *1 open() "/var/www/html/hello/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: hello.com, request: "GET /favicon.ico HTTP/1.1", host: "hello.com", referrer: "http://hello.com/"
+2017/04/24 14:38:19 [error] 5#5: *3 FastCGI sent in stderr: "Access to the script '/var/www/html/hello' has been denied (see security.limit_extensions)" while reading response header from upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.3:9000", host: "hello.com"
+2017/04/24 14:40:51 [error] 5#5: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "hello.com"
+2017/04/24 14:42:28 [error] 5#5: *6 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "hello.com"
+2017/04/24 14:45:31 [error] 5#5: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/24 14:45:32 [error] 5#5: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/24 14:45:34 [error] 5#5: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/24 14:54:00 [error] 5#5: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "hello.com"
+2017/04/24 14:54:02 [error] 5#5: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "hello.com"
+2017/04/24 14:54:05 [error] 5#5: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "hello.com"
+2017/04/24 15:10:18 [error] 5#5: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "hello.com"
+2017/04/24 15:10:19 [error] 5#5: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "hello.com"
+2017/04/24 15:10:19 [error] 5#5: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "hello.com"
+2017/04/24 15:10:20 [error] 5#5: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "hello.com"
+2017/04/24 15:10:20 [error] 5#5: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "hello.com"
+2017/04/24 15:13:42 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/24 15:13:43 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/24 15:13:44 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/24 15:13:44 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/24 15:13:44 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/24 15:13:44 [error] 6#6: *2 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/24 15:34:10 [error] 6#6: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/24 15:34:11 [error] 6#6: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/24 15:34:12 [error] 6#6: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/24 15:34:12 [error] 6#6: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/24 15:34:13 [error] 6#6: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/24 15:34:13 [error] 6#6: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/24 15:34:13 [error] 6#6: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/24 15:34:13 [error] 6#6: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/24 15:34:14 [error] 6#6: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/24 15:37:29 [error] 5#5: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/24 15:37:30 [error] 5#5: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/24 15:37:30 [error] 5#5: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.7:9000", host: "hello.com"
+2017/04/24 15:39:15 [error] 5#5: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "hello.com"
+2017/04/24 15:39:16 [error] 5#5: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "hello.com"
+2017/04/24 15:41:48 [error] 5#5: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "hello.com"
+2017/04/24 15:41:49 [error] 5#5: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /var/www/html/hello/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/hello/index.php on line 3" while reading upstream, client: 172.17.0.1, server: hello.com, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "hello.com"
